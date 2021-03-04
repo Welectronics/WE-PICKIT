@@ -1,0 +1,16 @@
+Viết chương trình (NRF)
+
+- Đọc giá trị cảm biến DHT11 gửi qua LORA 3000m (UART) để hiển thị lên Terminal PC		(..)
+- Đọc giá trị cảm biến LM35 gửi qua SI4463 433Mhz (UART) để hiển thị lên Terminal PC		(..)
+
+- Dùng KIT PIC điều khiển relay bằng nút nhấn LEFT/RIGHT/UP/DOWN (có hiển thị Led báo) qua HC-12 đến KIT 4 relay	(OK)
+- Và KIT 4 relay có thể gửi ngược lại bằng nút nhấn A0/A1/A2/A3 qua HC-12 đến KIT PIC (có hiển thị Led báo)		(OK)
+
+_______________________________________________________________________________________________________	
+RF UART SI4463 433Mhz HC-12	|
+________________________________|
+
+	Arduino and HC-12 Long Range Wireless Communication Module
+	_ http://howtomechatronics.com/tutorials/arduino/arduino-and-hc-12-long-range-wireless-communication-module/
+
+_______________________________________________________________________________________________________	

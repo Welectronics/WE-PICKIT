@@ -1,0 +1,55 @@
+Viết chương trình (RealTime)
+
+- Hiển thị "Giờ/Phút/Giây" đọc từ DS3231, lên LedSeg, dùng thanh ghi dịch + quét led	(..)
+
+- Set thời gian "Ngày/Tháng/Năm" và "Giờ/Phút" lên DS3231				(OK)
+- Hiển thị "Ngày/Tháng/Năm" và "Giờ/Phút/Giây" lên Lcd					(OK)
+
+- Hiển thị Lịch Dương/Âm đọc từ DS3231, lên Oled					(..)
+- Hiển thị cả "Tuần/Thứ" của lịch Dương, lên Oled					(..)
+
+- Set time, hẹn giờ on/off Relay trong ngày						(..)
+
+_______________________________________________________________________________________________________	
+DS3231	|
+________|
+
+	Real time clock and calendar using DS3231 and PIC16F877A – CCS C
+	_ https://simple-circuit.com/pic16f877a-ds3231-rtc-set-buttons/
+
+	Binary-coded decimal
+	_ https://en.wikipedia.org/wiki/Binary-coded_decimal
+	
+*** Số thập phân được mã hóa nhị phân (tiếng Anh: binary-coded decimal, viết tắt: BCD)
+*** Là một lớp mã hóa nhị phân của số thập phân trong đó mỗi chữ số thập phân được biểu diễn bởi một số cố định các bit, thường là 4 hoặc 8
+
+Nhận xét mã BCD:
+		_ Với 4bit ta có thể chỉ định cho 16 trường hợp khác nhau, 8bit cho 256 trường hợp
+		_ Ta có thể thấy với 4bit mình có thể chứa dư "10 kí tự số thập phân" tương ứng các con số từ 0-9
+
+		_ Tận dụng điểm này, với 8 bit (2 cặp 4 bit) ta có thể dùng để mã hóa cho "2 cặp chữ số thập phân"
+
+		_ Vd: số "18" trong hệ thập phân biểu thị dưới định dạng BCD là "0001.1000" trong hệ nhị phân
+                      thay vì là "0001.0010" cũng trong hệ nhị phân theo định dạng NORMAL
+
+	Interfacing RTC Module (DS3231) with PIC Microcontroller: Digital Clock
+	_ https://circuitdigest.com/microcontroller-projects/pic16f877a-ds3231-rtc-digital-clock
+
+	Interface DS3231 Precision RTC Module with Arduino
+	_ https://lastminuteengineers.com/ds3231-rtc-arduino-tutorial/
+
+_______________________________________________________________________________________________________	
+I2C	|
+________|
+
+	How I2C Communication Works and How To Use It with Arduino
+	_ https://howtomechatronics.com/tutorials/arduino/how-i2c-communication-works-and-how-to-use-it-with-arduino/
+
+_______________________________________________________________________________________________________	
+Problem	|
+________|
+
+	How to return multiple values from a function in C or C++?
+	_ https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/
+
+_______________________________________________________________________________________________________	
