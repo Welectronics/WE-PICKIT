@@ -1,0 +1,18 @@
+Viết chương trình (Led Segment)
+
+- Hiển thị 4 digit, ko dùng quét led từ 0-9								(OK)
+
+- Hiển thị 4 digit, dùng quét led từ 0-9 và A-B-C-D-E-F, tốc độ 1s mỗi số, dùng Counter (tick)		(OK)
+- Hiển thị 4 digit, dùng quét led từ 0000-9999, tốc độ 0.1s mỗi số, dùng Timer				(OK)
+
+- Hiển thị đếm số từ 0-9999, tốc độ 0.1s mỗi số, dùng ghi dịch (74HC595) + quét led			(OK)
+
+_______________________________________________________________________________________________________	
+
+Nguồn:	Interfacing Seven Segments with PIC16f877a
+	_ https://exploreembedded.com/wiki/Interfacing_Seven_Segments_with_PIC16f877a
+
+	74HC595 Serial Shift Register Interfacing with Pic Microcontroller
+	_ https://microcontrollerslab.com/74hc595-shift-register-interfacing-pic-microcontroller/
+
+_______________________________________________________________________________________________________	
