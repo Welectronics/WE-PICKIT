@@ -1,0 +1,9 @@
+Viết chương trình (RS485)
+
+- Đọc giá trị gửi từ máy tính (phần mềm Termite + CH340), và hiển thị lên màn hình LCD		(OK)
+
+- Nếu gửi "WE" từ máy, sẽ gửi "WELECTRONICS" ngược lại						(OK)
+- Nếu gửi "TEAM", sẽ gửi từng chuỗi sau "Trung"+"Lai"+"Bao"+"Thanh"+"Hiep" ngược lại		(OK)
+- Nếu gửi các giá trị khác, sẽ gửi "none" ngược lại						(OK)
+
+_______________________________________________________________________________________________________	
