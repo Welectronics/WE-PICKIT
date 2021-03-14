@@ -1,0 +1,41 @@
+﻿Viết chương trình (OLED)
+
+- Hiển thị "Hello World" trên màn hình Oled 0.96inch			(OK)
+- Hiển thị một số hình vẽ cơ bản, và hiệu ứng chuyển động của chữ	(OK)
+
+_______________________________________________________________________________________________________	
+
+Oled 1.3 Inch	(Driver SH1106)		(128x64)
+Oled 0.96 Inch	(Driver SSD1306)	(128x64)
+Oled 0.91 Inch	(Driver SSD1306)	(128x32)
+
+OLED (SSD1306)
+
+	PIC MCU with SSD1306 OLED – I2C Mode Example | mikroC Projects
+	_ https://simple-circuit.com/pic-mcu-ssd1306-oled-i2c-mode-mikroc/
+
+	SSD1306 OLED Library for CCS C compiler
+	_ https://simple-circuit.com/ssd1306-oled-ccs-c-library/
+
+	Interfacing PIC18F4550 with SSD1306 OLED
+	_ https://simple-circuit.com/pic18f4550-ssd1306-oled-display/
+
+	Interfacing PIC16F877A with SSD1306 OLED display
+	_ https://simple-circuit.com/pic16f877a-ssd1306-oled-display/
+
+*** This Oled have 128×64 Pixel, mean 8192 bit = 1024 byte
+
+In this example the SSD1306 works in I2C mode
+And the PIC16F877A has a limited RAM of 368 bytes
+Which means using a "buffer" of 1024 byte is not possible
+
+*** We need a new driver for SSD1306 Oled
+
+128x64 = 8192 bit = 1024 byte	-> 21 columns and 8 rows	->
+128x32 = 4096 bit =  512 byte	-> 21 columns and 4 rows	->
+ 96x16 = 1536 bit =  192 byte	-> 16 columns and 2 rows	-> cell = 6x8 bit = 48 bit = 6byte
+
+If every char need 6byte, we can write on display 128x64 about 21*8 = 168 char
+With Font size 5x7 inside cell 6x8
+
+_______________________________________________________________________________________________________	

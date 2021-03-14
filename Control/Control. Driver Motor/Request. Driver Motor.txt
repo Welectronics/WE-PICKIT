@@ -1,0 +1,20 @@
+﻿Viết chương trình (Driver Motor)
+
+- Chạy 2 MOTOR cùng chiều nhau, với hiệu ứng tăng dần tốc độ chiều CW, và giảm dần tốc độ chiều CCW, dùng PWM cho driver TB6612		(OK)
+- Chạy 2 MOTOR ngược chiều nhau, cho "Short brake" bằng nút DOWN, và cho "Stop" bằng nút SET						(OK)
+
+- Chạy 1 MOTOR chỉnh được tốc độ quay bằng nút nhấn UP/DOWN và dùng PWM		(OK)
+- Có hiển thị % tốc độ lên LegSeg (thanh ghi dịch + quét led)			(OK)
+
+- Chạy 1 MOTOR_STEP với tốc độ 1 vòng trong 1 giây, chạy auto quay 1 vòng chiều CW và CCW	(OK)
+- Chạy 1 MOTOR_STEP chỉnh được chiều quay, tốc độ quay, và số vòng quay, hiển thị lên Lcd	(OK)
+
+_______________________________________________________________________________________________________	
+
+	Stepper Library
+	_ https://www.arduino.cc/en/reference/stepper
+
+*** Library "Stepper.h"
+*** _ https://github.com/arduino-libraries/Stepper
+
+_______________________________________________________________________________________________________	

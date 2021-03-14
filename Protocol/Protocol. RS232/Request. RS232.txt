@@ -1,0 +1,8 @@
+﻿Viết chương trình (RS232)
+
+- Đọc giá trị gửi từ máy tính (phần mềm Termite + CP2102), và hiển thị lên màn hình LCD		(OK)
+- Nếu gửi "WE" từ máy, sẽ gửi "WELECTRONICS" ngược lại						(OK)
+- Nếu gửi "TRUNG", sẽ gửi "Trung Kuro" ngược lại						(OK)
+- Nếu gửi các giá trị khác, sẽ gửi "none" ngược lại						(OK)
+
+_______________________________________________________________________________________________________	

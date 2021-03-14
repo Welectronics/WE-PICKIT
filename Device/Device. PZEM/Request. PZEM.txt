@@ -1,0 +1,16 @@
+Viết chương trình (PZEM)
+
+- Đọc giá trị từ Pzem-004T (AC) và qua UART, và hiển thị các thông số đó lên màn hình Lcd	(OK)
+- Nhấn nút SET sẽ "Reset Energy"								(OK)
+- Nhấn nút DOWN sẽ hiển thị thông số "Voltage, Current, Power, Energy" cập nhập mỗi 1s		(OK)
+- Nhấn nút UP sẽ hiển thị thông số "Frequency, Power factor" cập nhập mỗi 1s			(OK)
+
+- Đọc giá trị từ Pzem-004 (AC) và qua UART, và hiển thị các thông số đó lên màn hình Lcd	(..)
+- Nhấn nút SET sẽ "Reset Energy"								(..)
+- Có phần CRC, bao gồm Set CRC trước khi gửi và Get CRC sau khi nhận được data			(..)
+
+- Đọc giá trị từ Pzem-016 (AC) qua RS485, và hiển thị thông số đó lên màn hình Lcd		(..)
+
+- Đọc giá trị từ Pzem-017 (DC) qua RS485, và hiển thị thông số đó lên màn hình Lcd		(..)
+
+_______________________________________________________________________________________________________	

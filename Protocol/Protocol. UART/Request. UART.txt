@@ -1,0 +1,41 @@
+﻿Viết chương trình (UART)
+
+- Gửi chuỗi "Hello world!" từ Pic lên Pc, và chờ nhận kí tự gửi từ Pc xuống Pic, nó sẽ gửi ngược lại lên Pc các kí tự đã nhận được	(OK)
+
+- Đọc giá trị gửi từ máy tính (phần mềm Termite + CP2102) về PIC, và hiển thị lên màn hình LCD	(OK)
+- Nếu gửi "WE" từ máy tính, nó sẽ gửi "WELECTRONICS" ngược lại PIC				(OK)
+- Nếu gửi "Hello", sẽ gửi "Who are you !!!" ngược lại						(OK)
+- Nếu gửi các giá trị khác, sẽ gửi "none" ngược lại						(OK)
+
+_______________________________________________________________________________________________________	
+UART		| ... Configuration Port
+________________|
+
+Baudrate (bps)		: 1200 / 2400 / 4800 / 9600 / 14400 / 19200 / 28800 / 38400 / 57600 / 115200 / 230400 / ...
+
+Data bits		: bit data
+Stop bits		: bit dừng
+Parity			: bit kiểm tra (even : chẵn / old : lẽ / mark : fixed high / space : fixed low)
+Flow control		: RTS/CTS , DTR/DSR , XON/XOFF
+
+*** Transmitted text **********************************************************************************
+
+_ Append nothing	: truyền văn bản thuần
+
+_ Append CR		: carriage return (\r) (ASCII 13)
+			  |_ di chuyển con trỏ đến đầu dòng mà không chuyển sang dòng tiếp theo
+			   _ dùng trong OS Mac và Win
+
+_ Append LF		: new-line (\n) (ASCII 10)
+			  |_ di chuyển con trỏ đến dòng tiếp theo
+			   _ dùng trong OS Unix và Win
+
+_ Append CR-LF		: truyền văn bản và nối thêm ký tự "xuống dòng" và ký tự "dòng mới"
+			  |_ dùng trong OS Win
+
+_______________________________________________________________________________________________________	
+
+Nguồn:	EOL or End of Line or newline ascii character
+	_ https://www.loginradius.com/blog/async/eol-end-of-line-or-newline-characters/#:~:text=There%20are%20two%20basic%20new,'%20or%20'Newline%20Character'.
+
+_______________________________________________________________________________________________________	

@@ -1,0 +1,14 @@
+﻿Viết chương trình (Button)
+
+- Đọc trạng thái 5 nút nhấn đơn (Left, Right, Up, Down, Set) ... Click Hold, có hiển thị trên LED đơn		(OK)
+- Đọc trạng thái 5 nút nhấn đơn (Left, Right, Up, Down, Set) ... Click Hold, có hiển thị tên nút trên LCD	(OK)
+
+- Đọc trạng thái 1 nút nhấn (Set) ... 1 Click + Hold, có chống Debounce, hiển thị LED blink 1s khi giữ		(OK)
+- Đọc số lần nhấn nút (Set) ... 1 Click + Edge Up, có chống Debounce, và hiển thị số lần nhấn lên LCD		(OK)
+
+_______________________________________________________________________________________________________	
+
+Nguồn:	Using Push Button Switch with PIC Microcontroller – CCS C
+	_ https://electrosome.com/switch-pic-microcontroller-ccs-c/
+
+_______________________________________________________________________________________________________	

@@ -1,0 +1,14 @@
+Viết chương trình (I2C)
+
+- Hiển thị chữ "WELECTRONICS" trên OLED 0.96		(..)
+- Hiển thị Logo của Welectronic trên OLED 0.96		(..)
+- Hiển thị Animation của Running Man trên OLED 0.96	(..)
+
+- Hiển thị thời gian của DS3231: "Ngày, Tháng, Năm" và "Giờ, Phút, Giây" lên LED SEG	(..)
+- Có thể cài đặt thời gian bằng nút nhấn						(..)
+- Hiển thị thời gian của DS3231: "Tuần, Thứ, Ngày, Tháng, Năm" lên màn hình LCD		(..)
+
+- Ghi data đọc được từ UART (Termite + CP2102) vào EEPROM AT24C32	(..)
+- Hiển thị data đó lên màn hình LCD					(..)
+
+_______________________________________________________________________________________________________	

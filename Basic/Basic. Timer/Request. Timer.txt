@@ -1,0 +1,29 @@
+Viết chương trình (Timer)
+
+- Cho blink led trong 1s không dùng delay (sử dụng Ngắt và Timer0, Timer1)	(OK)
+- Chạy thời gian đếm hiển thị lên LCD, đơn vị 1s (cho Timer0 và Timer1)		(OK)
+
+_______________________________________________________________________________________________________	
+Timer	|
+________|
+
+Ex: PIC16F877A
+	Timer0: 8-bit timer/counter with 8-bit prescaler
+	Timer1: 16-bit timer/counter with prescaler, can be incremented during Sleep via external crystal/clock
+	Timer2: 8-bit timer/counter with 8-bit period register, prescaler and postscaler
+
+Hardware Interrupts
+	External interrupt
+	Interrupt-on-change pin (IOC)
+
+Software Interrupts
+	Timer0 and its interrupt
+	Timer1 and its interrupt
+	Timer2 and its interrupt
+
+_______________________________________________________________________________________________________	
+
+Nguồn: PIC16F887 Timers and Interrupts with CCS C Compiler
+	_ https://simple-circuit.com/pic16f887-timers-interrupts-ccs-c/
+
+_______________________________________________________________________________________________________	

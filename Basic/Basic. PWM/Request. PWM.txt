@@ -1,0 +1,35 @@
+﻿Viết chương trình (PWM)
+
+- Điều khiển độ sáng đèn Led bằng PWM, tăng dần và giảm dần				(OK)
+
+- Điều khiển on/off BUZZER và tăng/giảm âm lượng bằng nút nhấn, hiển thị Volume lên LCD	(OK)
+- Cho phát BUZZER theo giai điệu nhạc "Merry Christmas"					(..)
+
+_______________________________________________________________________________________________________	
+PWM	| ... bộ điều chế độ rộng xung, có thể tạo ra tín hiệu với tần số và chu kỳ khác nhau
+________|
+
+Nguồn:	PIC16F877A PWM example with CCS PIC C compiler
+	_ https://simple-circuit.com/pic16f877a-pwm-adc-ccs-c/
+
+	Điều chế PWM là gì?
+	_ https://viettech.edu.vn/news/dieu-che-pwm-la-gi/
+
+Từ khóa:	. CCP (Capture / Compare / PWM)
+		. Capture
+		. Compare
+		. PWM - Pulse Width Modulation
+
+_______________________________________________________________________________________________________	
+
+# PIC 16F877A có 2 module CCP -> ta có thể tạo ra 2 xung PWM, với PWM1 của CCP1 và PWM2 của CCP2
+# 2 module CCP này đều sử dụng chung một Timer2 để tạo xung -> nghĩa là chúng sẽ cùng tần số
+
+# Chân PIN_C2 của PWM1 tức CCP1, và chân PIN_C1 của PWM2 tức CCP2
+
+# Các bước viết code ...
+	B1: cấu hình module CCP chức năng PWM
+	B2: cấu hình tần số PWM qua Timer2
+	B3: cài đặt độ rộng của xung PWM (% duty cycle)
+
+_______________________________________________________________________________________________________	

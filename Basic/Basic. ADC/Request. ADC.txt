@@ -1,0 +1,35 @@
+﻿Viết chương trình (ADC)
+
+- Đọc giá trị analog từ biến trở, và hiển thị độ sáng LED bằng PWM tương ứng	(OK)
+- Đọc giá trị analog từ biến trở, và hiển thị đơn vị % lên màn hình LCD		(OK)
+
+_______________________________________________________________________________________________________	
+ADC (Analog to Digital Converter)	|
+________________________________________|
+
+Nguồn:	PIC16F877A ADC example with CCS PIC C compiler
+	_ https://simple-circuit.com/pic16f877a-adc-ccs-c-example/
+
+	ADC Using PIC16F877A
+	_ https://exploreembedded.com/wiki/ADC_Using_PIC16F877A
+
+_______________________________________________________________________________________________________	
+
+# PIC16F877A có 8 bộ đọc analog (ADC), với độ phân giải 10 bit (0 - 1023)
+
+# ADC	Channel	PIC16F877A
+  0	RA0	AN0
+  1	RA1	AN1
+  2	RA2	AN2/VREF-
+  3	RA3	AN3/VREF+
+  4	RA5	AN4
+  5	RE0	AN5
+  6	RE1	AN6
+  7	RE2	AN7
+
+# Các bước viết code ...
+	B1: cấu hình ADC
+	B2: chọn các chân sẽ sử dụng làm Analog Read
+	B3: chọn chân một trong các chân đó, và đọc Analog từ chân đó
+
+_______________________________________________________________________________________________________	

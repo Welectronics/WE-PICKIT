@@ -1,0 +1,6 @@
+Viết chương trình (Bluetooth)
+
+- Điều khiển on/off Relay, bằng "gửi lệnh" (dùng app) qua HC05/06 phương thức UART	(..)
+- Điều khiển on/off Relay, bằng "giọng nói" (dùng app) qua HC05/06 phương thức UART	(..)
+
+_______________________________________________________________________________________________________	
